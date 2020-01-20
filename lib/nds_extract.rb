@@ -28,8 +28,10 @@ def list_of_directors(source)
   directors = []
   
   for each in source do
-    
-  # Write this implementation
+    directors << each[:name]
+  end
+  
+  return directors
 end
 
 def total_gross(source)
