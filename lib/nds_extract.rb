@@ -36,13 +36,14 @@ end
 
 def total_gross(source)
   directors = directors_totals(source)
+  directors_gross = list_of_directors(source)
   total = 0 
-
-  list_of_directors(source)
-  pp directors
   
   for each in directors do 
-    
+    total += directors_gross[each].to_i
+  end
+  
+  return total
   
   # Write this implementation
   #
