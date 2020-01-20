@@ -35,9 +35,9 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  directors = directors_totals(source)
-  pp directors
-  directors_gross = list_of_directors(source)
+  directors_gross = directors_totals(source)
+  pp directors_gross
+  directors = list_of_directors(source)
   total = 0 
   
   for each in directors do 
