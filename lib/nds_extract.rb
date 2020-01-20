@@ -39,7 +39,7 @@ def total_gross(source)
   total = 0 
 
   pp list_of_directors(source)
-    
+  pp directors
   
   # Write this implementation
   #
