@@ -38,8 +38,11 @@ def total_gross(source)
   directors = directors_totals(source)
   total = 0 
 
-  pp list_of_directors(source)
+  list_of_directors(source)
   pp directors
+  
+  for each in directors do 
+    
   
   # Write this implementation
   #
