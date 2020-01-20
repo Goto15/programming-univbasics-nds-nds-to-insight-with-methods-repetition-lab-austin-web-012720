@@ -36,12 +36,10 @@ end
 
 def total_gross(source)
   directors_gross = directors_totals(source)
-  pp directors_gross
   directors = list_of_directors(source)
   total = 0 
   
-  for each in directors do 
-    pp each
+  for each in directors do
     total += directors_gross[each].to_i
   end
   
