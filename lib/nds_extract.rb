@@ -36,6 +36,7 @@ end
 
 def total_gross(source)
   directors = directors_totals(source)
+  pp directors
   directors_gross = list_of_directors(source)
   total = 0 
   
